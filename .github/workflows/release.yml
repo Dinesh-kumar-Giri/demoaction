@@ -5,10 +5,6 @@ on:
 
 jobs:
   release:
-    permission:
-      contents: write
-      issues: write
-      pull-requests: write
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
