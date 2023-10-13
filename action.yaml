@@ -1,0 +1,5 @@
+name: giri Demo Action
+description: this is action greet person
+runs:
+  using: node16
+  main: src/index.js
